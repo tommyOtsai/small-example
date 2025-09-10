@@ -16,10 +16,10 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "drizzle-orm": "^0.33.0"
+    "@neondatabase/serverless": "^1.0.1",
+    "drizzle-orm": "^0.44.3"
   },
   "devDependencies": {
-    "@neondatabase/serverless": "^1.0.1",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.0.0",

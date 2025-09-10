@@ -3,9 +3,9 @@
   "private": true,
   "pnpm": {
     "overrides": {
-        "drizzle-orm": "^0.44.5"
+      "drizzle-orm": "^0.44.3"
     }
-  },  
+},  
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
