@@ -39,6 +39,7 @@ const upsertWorkflow = createWorkflow({
   outputSchema: z.object({
     user: z.any(),
   }),
+  steps: [upsert],
 })
   .then(upsert)
 
