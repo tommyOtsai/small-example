@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.0",
+    "@repo/db": "workspace:*",
     "@mastra/core": "^0.15.2",
     "@mastra/libsql": "^0.13.7",
     "@mastra/loggers": "^0.10.9",
     "@mastra/memory": "^0.14.2",
-    "@repo/db": "workspace:*",
     "drizzle-orm": "^0.44.3",
     "zod": "^3"
   },
