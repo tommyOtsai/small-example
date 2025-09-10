@@ -11,7 +11,6 @@
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "db:migrate": "tsx src/migrate.ts",
-    "dev": "tsx src/example.ts",
     "lint": "eslint src --max-warnings 0",
     "lint:fix": "eslint src --fix",
     "check-types": "tsc --noEmit"

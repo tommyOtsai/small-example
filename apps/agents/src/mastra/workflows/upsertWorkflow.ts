@@ -16,7 +16,14 @@ const upsert = createStep({
   }),
   execute: async ({ inputData }) => {
     const { name, email } = inputData;
-    const user = await db.insert(users).values({ name, email }).returning();
+    const user = await db
+      .insert(users)
+      .values({ name, email })
+      .onConflictDoUpdate({
+        target: users.email,
+        set: { name },
+      })
+      .returning();
     return { user };
   },
 });
