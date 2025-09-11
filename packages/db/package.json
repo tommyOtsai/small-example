@@ -2,8 +2,8 @@
   "name": "@repo/db",
   "version": "1.0.0",
   "description": "Database package with Neon and Drizzle ORM",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/db.js",
+  "types": "./dist/db.d.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
@@ -22,11 +22,9 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^20.0.0",
-    "dotenv": "^16.0.0",
-    "drizzle-kit": "^0.31.4",
-    "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+    "@types/node": "^22.13.9",
+    "@types/ws": "^8.18.0",
+    "bufferutil": "^4.0.9"
   },
   "files": [
     "dist"
