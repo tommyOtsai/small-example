@@ -17,7 +17,10 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.1",
-    "drizzle-orm": "^0.44.3"
+    "dotenv": "^17.2.2",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.3",
+    "ws": "^8.18.2"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
